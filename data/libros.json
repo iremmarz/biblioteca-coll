@@ -1,0 +1,151 @@
+
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2008-09-14",
+    "description": "En una oscura version del futuro proximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado Los Juegos del Hambre. Solo hay una regla: matar o morir.",
+    "genre": "fictional",
+    "author": "Suzanne Collins",
+    "inLanguage": "es-ES",
+    "isbn": "9788427202122",
+    "name": "Los juegos del hambre",
+    "numberOfPages": "374",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Scholastic"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/hambre.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Carlos",
+        "comment": "Es un gran libro que coge su inspiracion de los Juegos del Hambre del videojuego Minecraft.",
+        "date": "2019/4/20"
+      },
+      {
+        "nickname": "Lluc",
+        "comment": "El mejor libro que he leido nunca, se lo recomendaria a cualquiera.",
+        "date": "2012/03/11"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2006-04-21",
+    "description": "Durante mil anyos han caido cenizas del cielo. Durante mil anyos nada ha florecido. Durante mil anyos los skaa han sido esclavizados y viven en la miseria, sumidos en un miedo inevitable. Durante mil anyos el Lord Legislador ha reinado con poder absoluto, dominando gracias al terror, a sus poderes y a su inmortalidad, ayudado por obligadores e inquisidores, junto a la poderosa magia de la alomancia.",
+    "genre": "Fantasy",
+    "author": "Brandon Sanderson",
+    "inLanguage": "es-ES",
+    "isbn": "9788417347291",
+    "name": "El imperio final",
+    "numberOfPages": "688",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tor Books"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/lib1.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "true"
+    },
+    "coments": [
+      {
+        "nickname": "Esteve",
+        "comment": "Este libro es increible, me ha hecho sentir como que volvia a ser ninyo.",
+        "date": "2007/01/12"
+      },
+      {
+        "nickname": "Francisco Javier",
+        "comment": "Sigo sin entender la pasion de la gente por Brandon Sanderson, pero este libro no esta mal.",
+        "date": "2008/03/21"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2010-08-31",
+    "description": "Los dias en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aun habia magia en el mundo y honor en el corazon de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada mas estimulante para las almas de los hombres que la victoria.",
+    "genre": "Fantasy",
+    "author": "Brandon Sanderson",
+    "inLanguage": "es-ES",
+    "isbn": "9788466657662",
+    "name": "El camino de los reyes",
+    "numberOfPages": "1007",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tor Books"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/cam.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Juan",
+        "comment": "Desde el balcon: *Sonidos de caballo.",
+        "date": "2022/03/09"
+      },
+      {
+        "nickname": "Ander Salmon",
+        "comment": "No hay mejor autor que Sanderson, lo recomiendo alli donde voy.",
+        "date": "2021/04/19"
+      }
+    ]
+  },
+    {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2012-03-6",
+    "description": "Jack , un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose, una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal, un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.",
+    "genre": "Drama",
+    "author": "Ed W. Marsh",
+    "inLanguage": "en-GB",
+    "isbn": "9780062119384",
+    "name": "Titanic",
+    "numberOfPages": "208",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Harper Design"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/titanic.jpg"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Rodrigo",
+        "comment": "En el cine será un clásico pero ha sido lo peor que he leído en mucho tiempo.",
+        "date": "2020/04/03"
+      },
+      {
+        "nickname": "Carlos",
+        "comment": "Buen libro.",
+        "date": "2021/04/19"
+      }
+    ]
+  }
+]

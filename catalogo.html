@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>Biblioteca Coll de'n Rabassa</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Construction Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Mapa-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+  <!-- JSON-LD
+================================================== -->
+   <script type= "application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2008-09-14",
+    "description": "En una oscura version del futuro proximo, doce chicos y doce chicas se ven obligados a participar en un reality show llamado Los Juegos del Hambre. Solo hay una regla: matar o morir.",
+    "genre": "fictional",
+    "author": "Suzanne Collins",
+    "inLanguage": "es-ES",
+    "isbn": "9788427202122",
+    "name": "Los juegos del hambre",
+    "numberOfPages": "374",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Scholastic"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/hambre.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Carlos",
+        "comment": "Es un gran libro que coge su inspiracion de los Juegos del Hambre del videojuego Minecraft.",
+        "date": "2019/4/20"
+      },
+      {
+        "nickname": "Lluc",
+        "comment": "El mejor libro que he leido nunca, se lo recomendaria a cualquiera.",
+        "date": "2012/03/11"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2006-04-21",
+    "description": "Durante mil anyos han caido cenizas del cielo. Durante mil anyos nada ha florecido. Durante mil anyos los skaa han sido esclavizados y viven en la miseria, sumidos en un miedo inevitable. Durante mil anyos el Lord Legislador ha reinado con poder absoluto, dominando gracias al terror, a sus poderes y a su inmortalidad, ayudado por obligadores e inquisidores, junto a la poderosa magia de la alomancia.",
+    "genre": "Fantasy",
+    "author": "Brandon Sanderson",
+    "inLanguage": "es-ES",
+    "isbn": "9788417347291",
+    "name": "El imperio final",
+    "numberOfPages": "688",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tor Books"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/lib1.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "true"
+    },
+    "coments": [
+      {
+        "nickname": "Esteve",
+        "comment": "Este libro es increible, me ha hecho sentir como que volvia a ser ninyo.",
+        "date": "2007/01/12"
+      },
+      {
+        "nickname": "Francisco Javier",
+        "comment": "Sigo sin entender la pasion de la gente por Brandon Sanderson, pero este libro no esta mal.",
+        "date": "2008/03/21"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2010-08-31",
+    "description": "Los dias en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aun habia magia en el mundo y honor en el corazon de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada mas estimulante para las almas de los hombres que la victoria.",
+    "genre": "Fantasy",
+    "author": "Brandon Sanderson",
+    "inLanguage": "es-ES",
+    "isbn": "9788466657662",
+    "name": "El camino de los reyes",
+    "numberOfPages": "1007",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tor Books"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/cam.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Juan",
+        "comment": "Desde el balcon: *Sonidos de caballo.",
+        "date": "2022/03/09"
+      },
+      {
+        "nickname": "Ander Salmon",
+        "comment": "No hay mejor autor que Sanderson, lo recomiendo alli donde voy.",
+        "date": "2021/04/19"
+      }
+    ]
+  },
+    {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2012-03-6",
+    "description": "Jack , un joven artista, gana en una partida de cartas un pasaje para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido. A bordo conoce a Rose, una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal, un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.",
+    "genre": "Drama",
+    "author": "Ed W. Marsh",
+    "inLanguage": "en-GB",
+    "isbn": "9780062119384",
+    "name": "James Cameron Titanic",
+    "numberOfPages": "208",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Harper Design"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.neocities.org/images/libros/titanic.jpg"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Rodrigo",
+        "comment": "En el cine será un clásico pero ha sido lo peor que he leído en mucho tiempo.",
+        "date": "2020/04/03"
+      },
+      {
+        "nickname": "Carlos",
+        "comment": "Buen libro.",
+        "date": "2021/04/19"
+      }
+    ]
+  }
+]
+   </script>
+
+</head>
+<body>
+  <div class="body-inner">
+
+<!-- Header start -->
+<header id="header" class="header-one">
+  <div class="bg-white">
+    <div class="container">
+      <div class="logo-area">
+          <div class="row align-items-center">
+            <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                <a class="d-block" href="index.html">
+                  <img loading="lazy" src="images/logo.png" alt="Biblioteca Coll de'n Rabassa">
+                </a>
+            </div><!-- logo end -->
+  
+            <div class="col-lg-9 header-right">
+                <ul class="top-info-box">
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                          <p class="info-box-title">Teléfono</p>
+                          <p class="info-box-subtitle"><a href="tel:971 22 59 00">971 22 59 00</a></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                          <p class="info-box-title">Horario</p>
+                          <p class="info-box-subtitle">Lunes y Viernes de 8:30h a 14:30h <br> Martes, Miércoles y Jueves de 14:30h a 20:30h <br> Sábados de 9h a 13h</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                          <p class="info-box-title">Redes Sociales</p>
+                      <a title="Facebook" href="https://www.facebook.com/ajuntamentdepalma" class ="icon-redes">
+                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                         <path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h5.621v-6.961h-2.343v-2.725h2.343V9.309 c0-2.324,1.421-3.591,3.495-3.591c0.699-0.002,1.397,0.034,2.092,0.105v2.43h-1.428c-1.13,0-1.35,0.534-1.35,1.322v1.735h2.7 l-0.351,2.725h-2.365V21H17c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z"></path></svg>
+                      </a>
+                      <a title="Twitter" href="https://twitter.com/Ajuntpalma" class ="icon-redes">
+                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                         <path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h10c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z M17.05,9.514 c0,0.086,0,0.171,0,0.343c0,3.257-2.486,7.029-7.029,7.029c-1.371,0-2.657-0.429-3.771-1.114c0.171,0,0.429,0,0.6,0 c1.114,0,2.229-0.429,3.086-1.029c-1.114,0-1.971-0.771-2.314-1.714c0.171,0,0.343,0.086,0.429,0.086c0.257,0,0.429,0,0.686-0.086 c-1.114-0.257-1.971-1.2-1.971-2.4c0.343,0.171,0.686,0.257,1.114,0.343c-0.686-0.6-1.114-1.286-1.114-2.143 c0-0.429,0.086-0.857,0.343-1.2c1.2,1.457,3,2.486,5.057,2.571c0-0.171-0.086-0.343-0.086-0.6c0-1.371,1.114-2.486,2.486-2.486 c0.686,0,1.371,0.257,1.8,0.771c0.6-0.086,1.114-0.343,1.543-0.6c-0.171,0.6-0.6,1.029-1.114,1.371 c0.514-0.086,0.943-0.171,1.457-0.429C17.907,8.743,17.479,9.171,17.05,9.514z"></path></svg>
+                      </a>
+                      <a title="Instagram" href="https://www.instagram.com/ajuntpalma" class ="icon-redes">
+                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                          <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path></svg>
+                      </a>
+                      <a title="YouTube" href="https://www.youtube.com/user/ajuntpalma" class ="icon-redes">
+                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style=" fill:#000000;">    
+                          <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,14.598V9.402c0-0.385,0.417-0.625,0.75-0.433l4.5,2.598c0.333,0.192,0.333,0.674,0,0.866l-4.5,2.598 C10.417,15.224,10,14.983,10,14.598z"></path></svg>
+                      </a>
+                      </div>
+                    </div>
+                  </li>
+                  
+                </ul><!-- Ul end -->
+            </div><!-- header right end -->
+          </div><!-- logo area end -->
+  
+      </div><!-- Row end -->
+    </div><!-- Container end -->
+  </div>
+
+  <div class="site-navigation">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav mr-auto">
+                      <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                      
+                      <li class="nav-item"><a class="nav-link" href="index.html#historia">Historia</a></li>
+                      
+                      <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+
+                      <li class="nav-item dropdown">
+                          <a href="#servicios" class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios<i class="fa fa-angle-down"></i></a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="index.html#collapseOne">Internet</a></li>
+                            <li><a href="index.html#collapseTwo">Lectura en sala</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="index.html#collapseThree" class="dropdown-toggle" data-toggle="dropdown">Préstamo</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="index.html#collapseThree">Libros</a></li>
+                                  <li><a href="index.html#collapseThree">Películas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html#collapseFour">Renovación del préstamos</a></li>
+                            <li><a href="index.html#collapseFive">Guias de Lectura</a></li>
+                          </ul>
+                      </li>
+              
+                      <li class="nav-item"><a class="nav-link" href="index.html#actividades">Actividades</a></li>
+                                                                
+                      <li class="nav-item"><a class="nav-link" href="index.html#faq">FAQ</a></li>
+                      
+                    </ul>
+                </div>
+              </nav>
+          </div>
+          <!--/ Col end -->
+        </div>
+        <!--/ Row end -->
+
+    </div>
+    <!--/ Container end -->
+
+  </div>
+  <!--/ Navigation end -->
+</header>
+<!--/ Header end -->
+
+<div class="banner-carousel banner-carousel-1 mb-0">
+<div class="banner-carousel-item" style="background-image:url(images/slider-main/bib12.png)">
+    <div class="slider-content">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+              <div class="col-md-12 text-center">
+                <h3 class="slide-sub-title">Catálogo</h3>
+                <br>
+                <form role="form" id="form-buscar">
+                    <div class="input-group">
+                      <input id="myInput" onkeyup="search()" class="form-control" type="text" name="searchBar" placeholder="Introduzca el título del libro..." required/>
+                    </div>
+                </form>
+                <br>
+                <div class="col-md-12 text-center">
+                          <button class="boton-filtro" type="submit" onclick="search()">
+                            <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Título
+                          </button>
+                          <button class="boton-filtro" type="submit" onclick="autor()">
+                            <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Autor
+                          </button>
+                </div>
+              </div>
+              
+          </div>
+          <div class="row align-items-center h-100">
+              
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+            
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="libro">
+                    <!--<div class="col mb-5" >
+                        <div class="card-cat h-100" id="libro">
+                             Product image
+                            <img class="card-img-top" src="images/libros/lib1.png" alt="..." />
+                            Product details
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    Product name
+                                    <h7 class="fw-bolder">El Imperio Final</h7>
+                                    Product price
+                                    <p><p2>Brandon Sanderson</p2></p>
+                                </div>
+                            </div> 
+                             Product actions
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center">
+                                <button type="button" class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#exampleModalCenter">Detalles</button></div>
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title">El imperio final - <i>Brandon Sanderson</i></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <p><b>Año de publicación: </b>2006</p>
+                                      <p><b>Número de páginas: </b>688</p>
+                                      <p><b>Editorial: </b>Nova</p>
+                                      <p><b>ISBN-10: </b>8417347291</p>
+                                      <p><b>Sinópsis: </b>Durante mil años han caído cenizas del cielo. Durante mil años nada ha florecido. Durante mil años los skaa han sido esclavizados y viven en la miseria, sumidos en un miedo inevitable. Durante mil años el Lord Legislador ha reinado con poder absoluto, dominando gracias al terror, a sus poderes y a su inmortalidad, ayudado por «obligadores» e «inquisidores», junto a la poderosa magia de la alomancia.<br><br>
+                                        Pero los nobles a menudo han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborn).<br><br>
+                                        Ahora, Kelsier, el «superviviente», el único que ha logrado huir de los Pozos de Hathsin, ha encontrado a Vin, una pobre chica skaa con mucha suerte... Tal vez los dos, con el mejor equipo criminal jamás reunido, unidos a la rebelión que los skaa intentan desde hace mil años, logren cambiar el mundo y acabar con la atroz mano de hierro del Lord Legislador.</p>
+                                      <p><b>Trailer: </b></p>
+                                      <img loading="lazy" class="img-fluid" src="images/youtube.jpg" alt="service-avater-image">
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn boton" data-dismiss="modal">Cerrar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!--<div class="col mb-5">
+                        <div class="card-cat h-100" id="libro">
+                            Product image
+                            <img class="card-img-top" src="images/libros/lib2.png" alt="..." />
+                            Product details
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    Product name</div>
+                    </div>
+                                    <h7 class="fw-bolder">Elantris</h7>
+                                    Product price
+                                    <p><p2>Brandon Sanderson</p2></p>
+                                </div>
+                            </div>
+                            Product actions
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Detalles</a></div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!--<div class="col mb-5">
+                        <div class="card-cat h-100" id="libro">
+                            Product image
+                            <img class="card-img-top" src="images/libros/lib3.png" alt="..." />
+                            Product details
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                     Product name
+                                    <h7 class="fw-bolder">El Pozo De La Ascensión</h7>
+                                    Product price
+                                    <p><p2>Brandon Sanderson</p2></p>
+                                </div>
+                            </div>
+                            Product actions
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Detalles</a></div>
+                            </div>
+                        </div>
+                    </div>-->
+                    
+              
+                    
+                </div>
+            </div>
+        </section>
+
+<div class="container px-4 px-lg-5 mt-5">
+<div class="container border border-1 rounded-end shadow mt-5 p-3 px-5 aos-init aos-animate" data-aos="flip-up">
+<ul id="lista_comentarios" style="margin-top:35px; list-style-type: none"></ul>
+</div>
+</div>
+
+<section class="section section-md bg-gray-100">
+<div class="container border border-1 rounded-end shadow mt-5 p-3 px-5 aos-init aos-animate" data-aos="flip-up">
+        <div class="container">
+        <h3 class="text-center">Deja un Comentario</h3>
+          <div class="row justify-content-center">
+            <div class="col-lg-11 col-xl-9">
+              <!-- RD Mailform-->
+              <form class="rd-mailform rd-form">
+                <div class="row row-x-16 row-20">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input v-model="nombre" class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label" for="contact-name">Nombre</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input v-model="email" class="form-input" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
+                      <label class="form-label" for="contact-email">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-message">Mensaje</label>
+                      <textarea v-model="comentario" class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input v-model="telefono" class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@PhoneNumber">
+                      <label class="form-label" for="contact-phone">Teléfono</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap form-button">
+                      <button id="botonFormId" class="boton-coment button-block button-primary" type="submit" v-on:click.prevent='enviarComentario'>Enviar Comentario</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+  <footer id="footer" class="footer bg-overlay">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-md-6 footer-widget footer-about">
+            <h3 class="widget-title">¿Dónde estamos?</h3>
+            <div id="map"></div>
+            <p>C/ Son Rossinyol 1, 07007 Palma</p>
+          </div><!-- Col end -->
+
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <h3 class="widget-title">Horario</h3>
+            <div class="working-hours">
+              La biblioteca está abierta seis días a la semana, durante los domingos y festivos estará totalmente inoperativa.
+              <br><br> Lunes y Viernes: <span class="text-right">8:30h - 14:30h</span>
+              <br> Martes - Jueves: <span class="text-right">14:30h - 20:30h</span>
+              <br> Sábados: <span class="text-right">9:00h - 13:00h</span>
+            </div>
+          </div><!-- Col end -->
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <h3 class="widget-title">¡Contáctanos!</h3>
+              <p>971 22 59 00</p>
+              <p>bibcoll@palma.cat</p>
+            <div class="footer-social">
+              
+                <a title="Facebook" href="https://www.facebook.com/ajuntamentdepalma" class ="icon-redes-footer">
+                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32" style=" fill:#999;">
+                         <path d="M 7 5 C 5.90625 5 5 5.90625 5 7 L 5 25 C 5 26.09375 5.90625 27 7 27 L 25 27 C 26.09375 27 27 26.09375 27 25 L 27 7 C 27 5.90625 26.09375 5 25 5 Z M 7 7 L 25 7 L 25 25 L 19.8125 25 L 19.8125 18.25 L 22.40625 18.25 L 22.78125 15.25 L 19.8125 15.25 L 19.8125 13.3125 C 19.8125 12.4375 20.027344 11.84375 21.28125 11.84375 L 22.90625 11.84375 L 22.90625 9.125 C 22.628906 9.089844 21.667969 9.03125 20.5625 9.03125 C 18.257813 9.03125 16.6875 10.417969 16.6875 13 L 16.6875 15.25 L 14.0625 15.25 L 14.0625 18.25 L 16.6875 18.25 L 16.6875 25 L 7 25 Z"></path></svg>
+                      </a>
+                <a title="Twitter" href="https://twitter.com/Ajuntpalma" class ="icon-redes-footer">
+                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 24 24" style=" fill:#999;">    
+                         <path d="M 5 3 C 3.897 3 3 3.897 3 5 L 3 19 C 3 20.103 3.897 21 5 21 L 19 21 C 20.103 21 21 20.103 21 19 L 21 5 C 21 3.897 20.103 3 19 3 L 5 3 z M 5 5 L 19 5 L 19.001953 19 L 5 19 L 5 5 z M 14.566406 7.1132812 C 13.194406 7.1132812 12.080078 8.2286094 12.080078 9.5996094 C 12.080078 9.8566094 12.166016 10.028219 12.166016 10.199219 C 10.109016 10.114219 8.309375 9.0859063 7.109375 7.6289062 C 6.852375 7.9719062 6.765625 8.399125 6.765625 8.828125 C 6.765625 9.685125 7.1948594 10.372656 7.8808594 10.972656 C 7.4528594 10.886656 7.108625 10.799906 6.765625 10.628906 C 6.765625 11.828906 7.6223281 12.772297 8.7363281 13.029297 C 8.4793281 13.115297 8.3077812 13.115234 8.0507812 13.115234 C 7.9647813 13.115234 7.7920938 13.029297 7.6210938 13.029297 C 7.9640937 13.972297 8.8215469 14.742188 9.9355469 14.742188 C 9.0785469 15.342187 7.9636094 15.771484 6.8496094 15.771484 L 6.25 15.771484 C 7.364 16.456484 8.6504844 16.886719 10.021484 16.886719 C 14.564484 16.886719 17.050781 13.114422 17.050781 9.8574219 L 17.050781 9.5136719 C 17.479781 9.1706719 17.906953 8.7425625 18.251953 8.2265625 C 17.737953 8.4845625 17.308922 8.57025 16.794922 8.65625 C 17.308922 8.31425 17.737203 7.8851562 17.908203 7.2851562 C 17.479203 7.5421562 16.965234 7.7987656 16.365234 7.8847656 C 15.936234 7.3707656 15.252406 7.1132812 14.566406 7.1132812 z"></path></svg>
+                      </a>
+                
+                <a title="Instagram" href="https://www.instagram.com/ajuntpalma" class ="icon-redes-footer">
+                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32" style=" fill:#999;">
+                          <path d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z"></path></svg>
+                      </a>
+                <a title="YouTube" href="https://www.youtube.com/user/ajuntpalma" class ="icon-redes-footer">
+                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32" style=" fill:#999;">
+                          <path d="M 16 6 C 12.234375 6 8.90625 6.390625 6.875 6.6875 C 5.195313 6.933594 3.839844 8.199219 3.53125 9.875 C 3.269531 11.300781 3 13.386719 3 16 C 3 18.613281 3.269531 20.699219 3.53125 22.125 C 3.839844 23.800781 5.195313 25.070313 6.875 25.3125 C 8.914063 25.609375 12.253906 26 16 26 C 19.746094 26 23.085938 25.609375 25.125 25.3125 C 26.804688 25.070313 28.160156 23.800781 28.46875 22.125 C 28.730469 20.695313 29 18.605469 29 16 C 29 13.394531 28.734375 11.304688 28.46875 9.875 C 28.160156 8.199219 26.804688 6.933594 25.125 6.6875 C 23.09375 6.390625 19.765625 6 16 6 Z M 16 8 C 19.632813 8 22.878906 8.371094 24.84375 8.65625 C 25.6875 8.78125 26.347656 9.417969 26.5 10.25 C 26.742188 11.570313 27 13.527344 27 16 C 27 18.46875 26.742188 20.429688 26.5 21.75 C 26.347656 22.582031 25.691406 23.222656 24.84375 23.34375 C 22.871094 23.628906 19.609375 24 16 24 C 12.390625 24 9.125 23.628906 7.15625 23.34375 C 6.3125 23.222656 5.652344 22.582031 5.5 21.75 C 5.257813 20.429688 5 18.476563 5 16 C 5 13.519531 5.257813 11.570313 5.5 10.25 C 5.652344 9.417969 6.308594 8.78125 7.15625 8.65625 C 9.117188 8.371094 12.367188 8 16 8 Z M 13 10.28125 L 13 21.71875 L 14.5 20.875 L 21.5 16.875 L 23 16 L 21.5 15.125 L 14.5 11.125 Z M 15 13.71875 L 18.96875 16 L 15 18.28125 Z"></path></svg>
+                      </a>
+            </div><!-- Footer social end -->
+        </div><!-- Row end -->
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+          <button class="btn btn-primary" title="Back to Top">
+            <i class="fa fa-angle-double-up"></i>
+          </button>
+        </div>
+        </div>
+      </div><!-- Container end -->
+    </div><!-- Footer main end -->
+</footer><!-- Footer end -->
+
+
+  <!-- Javascript Files
+  ================================================== -->
+
+  <!-- initialize jQuery Library -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap jQuery -->
+  <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+  <!-- Slick Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="plugins/shuffle/shuffle.min.js" defer></script>
+
+
+ <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+
+  <!-- Map API-->
+  <script src="js/map.js" defer></script>
+
+
+  <!-- Template custom -->
+  <script src="js/script.js"></script>
+  <!--Script de cards -->
+  <script src="js/getjson.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/comentarios.js"></script>
+  <script src="js/buscador.js"></script>
+
+  </div><!-- Body inner end -->
+  </body>
+
+  </html>
