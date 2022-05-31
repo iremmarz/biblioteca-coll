@@ -1,7 +1,15 @@
-var dataLlista = JSON.parse(sessionStorage.getItem("jsonLibros"));
-var dataPelis = JSON.parse(sessionStorage.getItem("jsonPeliculas"));
-var url;
-generarCards();
+var dataLlista;
+var dataPelis;
+//let cards = JSON.parse(sessionStorage.getItem("jsonLibros"));
+//let llistaPelis = JSON.parse(sessionStorage.getItem("jsonPeliculas"));
+
+async function init(){
+  dataLlista = await fetchJSON();
+  dataPelis = await fetchJSONPeliculas();
+  generarCards();
+}
+init();
+
 
 
 function generarCards(){

@@ -28,9 +28,8 @@ function getJson(url){
   return aux;
 }
 
-async function fetchJSON1(url) {
-  console.log("fetch1");
-    const response = await fetch(url);
+async function fetchJSONPeliculas() {
+    const response = await fetch('https://hollypedia.netlify.app/json/peliculas.json');
     if (!response.ok) {
         const message = `An error has occured: ${response.status}`;
         throw new Error(message);
@@ -38,9 +37,8 @@ async function fetchJSON1(url) {
     const data = response.json();
     return data;
 }
-async function fetchJSON2(url) {
-  console.log("fetch2");
-    const response = await fetch(url);
+async function fetchJSON() {
+    const response = await fetch('https://biblioteca-coll.netlify.app/data/libros.json');
     if (!response.ok) {
         const message = `An error has occured: ${response.status}`;
         throw new Error(message);
@@ -48,19 +46,19 @@ async function fetchJSON2(url) {
     const data = response.json();
     return data;
 }
-fetchJSON2().catch(error => {
+fetchJSON().catch(error => {
     error.message; // 'An error has occurred: 404'
 });
 
 async function fetchPelis(){
-  let peliculas = await fetchJSON1('https://hollypedia.netlify.app/json/peliculas.json');
+  let peliculas = await fetchJSONPeliculas();
   sessionStorage.setItem("jsonPeliculas",JSON.parse(peliculas));
   console.log(peliculas);
 }
 
 async function fetchLibros(){
-  let libros = await fetchJSON2('https://biblioteca-coll.netlify.app/data/libros.json');
+  let libros = await fetchJSON();
   console.log(libros);
-  sessionStorage.setItem("jsonLibros",JSON.parse(libros));
+  //sessionStorage.setItem("jsonLibros",JSON.parse(libros));
   
 }
