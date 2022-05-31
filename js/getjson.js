@@ -1,7 +1,7 @@
 /* jshint esversion: 8 */
 
 
-let libros = getJson("https://biblioteca-coll.neocities.org/data/libros.json");
+let libros = getJson("https://biblioteca-coll.netlify.app/data/libros.json");
 //let peliculas = getJson("https://hollypedia.netlify.app/json/peliculas.json");
 //let peliculas = fetchJSON();
 //console.log(peliculas);

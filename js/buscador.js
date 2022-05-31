@@ -18,6 +18,7 @@ function search(){
       for(d= 0; d < llistaPelis.length; d++){
         if(obj["name"] == llistaPelis[d]["name"]){
         url = llistaPelis[d]["datosextra"][0]["trailerApi"];
+        
       } 
       }
       document.getElementById("libro").innerHTML += '<div class="col mb-5" >'+
@@ -88,8 +89,8 @@ function searchAutor(){
 }
 
 function ventanaModal(i,url){
-  let div = document.createElement("div");
-  div.innerHTML ='<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">'+
+ 
+  document.getElementById("cardM").innerHTML ='<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">'+
                                   '<div class="modal-dialog modal-dialog-centered" role="document">'+
                                     '<div class="modal-content">'+
                                       '<div class="modal-header">'+
@@ -118,5 +119,4 @@ function ventanaModal(i,url){
                                     '</div>'+
                                   '</div>'+
                                 '</div>';
-                                document.body.appendChild(div);
 }
