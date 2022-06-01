@@ -269,6 +269,11 @@ a:focus {
   margin-left: 10px;
 }
 
+.video-center {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
 
 /* Dropcap */
 .dropcap {
@@ -3879,6 +3884,20 @@ textarea.form-input {
   filter: invert(27%) sepia(80%) saturate(2878%) hue-rotate(33deg) brightness(104%) contrast(97%);
 }
 
+.video-container{
+  position:relative;
+  top: -150px;
+  padding-bottom:55%;
+}
+.responsive-video{
+  position:absolute;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+}
+.small{
+    transform: scale(0.7, 0.7);
+}
 .iframe-container{
   position: relative;
   width: 100%;
