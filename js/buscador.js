@@ -73,7 +73,6 @@ function search() {
     
     
   }
-  document.getElementById("libro").innerHTML += '<p> No hay libros con ese título </p>'
 }
 
 function autor() {
@@ -119,9 +118,6 @@ function searchAutor() {
 
       </div>
       `;
-    }
-    else{
-      document.getElementById("nolibro").innerHTML += '<p> No hay libros de ese autor </p>'
     }
   }
 }
