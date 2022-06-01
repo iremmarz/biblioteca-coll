@@ -369,12 +369,12 @@
   {
     "datePublished": "2021-10-20",
     "description": "V de vendetta es uno de los trabajos más personales y logradas de sus autores: Alan Moore (Watchmen, Batman: La broma asesina) y David Lloyd (Hellblazer). Con esta esperada nueva edición, volveremos a disfrutar de la historia protagonizada por el subversivo V, ahora en formato cartoné y con abundante material extra, V de Vendetta, además de ser una de las mayores obras maestras de la industria del cómic y una de las obras más personales de sus autores, Alan Moore y David Lloyd, es una historia espeluznante y terriblemente real acerca de la pérdida de la libertad y de la identidad del individuo que se ve inmerso en un mundo hostil, frío y totalitario. Con el trasfondo de una Inglaterra imaginaria que ha caído bajo la bota de un régimen fascista, se analiza tanto la vida bajo un estado policial asfixiante como el poder de la rebelión y la resistencia del espíritu humano ante la opresión y el totalitarismo.",
-    "genre": "Historia",
+    "genre": "Acción",
     "author": "Alan Moore",
     "inLanguage": "en-ES",
     "isbn": "9788420454665",
     "name": "V de Vendetta",
-    "numberOfPages": "688",
+    "numberOfPages": "288",
     "publisher": {
       "@type": "Organization",
       "name": "ALFAGUARA"
@@ -382,7 +382,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "name": "https://biblioteca-coll.netlify.app/images/libros/lineadefuego.png"
+        "name": "https://biblioteca-coll.netlify.app/images/libros/vdevendetta.png"
       }
     ],
     "contadores": {
@@ -390,13 +390,48 @@
     },
     "coments": [
       {
-        "nickname": "Jose Manuel Martinez",
-        "comment": "Me ha encantado lo bien que plasma la historia de sus personajes, uno de mis favoritos sin duda.",
-        "date": "2020/10/20"
+        "nickname": "Kamisato Ayaka",
+        "comment": "Este libro explica muy bien como empiezan las revoluciones, primero desde las sombras y luego van emergiendo, me ha gustado mucho.",
+        "date": "2020/10/22"
       },
       {
-        "nickname": "Javier Inmaculado",
-        "comment": "Este libro es fantastico, se lo recomiendo a todas las personas para que tengan un poco de cultura y dejen de votar a según que personas.",
+        "nickname": "Sara",
+        "comment": "Este tipo de libros no deberían estar permitidos, sobretodo a un público tan joven e influenciable...",
+        "date": "2020/10/23"
+      }
+    ]
+  },
+  {
+    "datePublished": "2009-09-29",
+    "description": "Un magnate inmobiliario de Nueva York se precipita hacia la muerte en una acera de Manhattan. Una esposa trofeo con un pasado sobrevive por poco a un ataque descarado. Mafiosos y magnates sin escasez de razones para matar sacan a relucir sus coartadas. Y luego, bajo las garras sofocantes de una ola de calor sin precedentes, llega otro asesinato impactante y un giro brusco en un viaje tenso hacia los pequeños y sucios secretos de los ricos. Secretos que resultan fatales. Secretos que yacen ocultos en la oscuridad hasta que un detective de la policía de Nueva York enciende una luz. La sensación de misterio Richard Castle, autor de éxitos de taquilla de las novelas de Derrick Storm más vendidas, presenta a su nuevo personaje, la detective de homicidios de la policía de Nueva York, Nikki Heat. Dura, sexy y profesional, Nikki Heat siente pasión por la justicia mientras dirige uno de los mejores escuadrones de homicidios de la ciudad de Nueva York. Se enfrenta a un desafío inesperado cuando el comisionado asigna al periodista de la revista superestrella Jameson Rook para que la acompañe en la investigación de un artículo sobre New York's Finest. Rook, ganador del premio Pulitzer, es tan problemático como guapo. Sus bromas e intromisiones no son sus únicos problemas. Mientras trabaja para desentrañar los secretos del magnate inmobiliario asesinado, también debe enfrentarse a la chispa que los une. El llamado calor.",
+    "genre": "Acción",
+    "author": "Richard Castle",
+    "inLanguage": "en-ES",
+    "isbn": "9781401323820",
+    "name": "Heat Wave",
+    "numberOfPages": "208",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hyperion"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.netlify.app/images/libros/heatwave.png"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Cait",
+        "comment": "Me parece super bien por lo que lucha la protagonista y empodera a la mujer 10/10.",
+        "date": "2020/10/22"
+      },
+      {
+        "nickname": "Vi",
+        "comment": "A mi novia le encantan este tipo de novelas, espero que a vosotros os gusten tanto como a ella.",
         "date": "2020/10/23"
       }
     ]
