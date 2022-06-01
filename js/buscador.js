@@ -21,7 +21,6 @@ function search() {
   x.innerHTML = ""
   let url = ""
 
-  console.log(llistaPelis);
   for (i = 0; i < cards.length; i++) {
     let obj = cards[i];
     if (obj.name.toLowerCase().includes(input)) {
@@ -71,7 +70,10 @@ function search() {
         '</div>' +
         '</div>'; */
     }
+    
+    
   }
+  document.getElementById("libro").innerHTML += '<p> No hay libros con ese título </p>'
 }
 
 function autor() {
@@ -117,6 +119,9 @@ function searchAutor() {
 
       </div>
       `;
+    }
+    else{
+      document.getElementById("nolibro").innerHTML += '<p> No hay libros de ese autor </p>'
     }
   }
 }

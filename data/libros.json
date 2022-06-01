@@ -18,7 +18,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "name": "https://biblioteca-coll.neocities.org/images/libros/hambre.png"
+        "name": "https://biblioteca-coll.netlify.app/images/libros/hambre.png"
       }
     ],
     "contadores": {
@@ -55,7 +55,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "name": "https://biblioteca-coll.neocities.org/images/libros/lib1.png"
+        "name": "https://biblioteca-coll.netlify.app/images/libros/lib1.png"
       }
     ],
     "contadores": {
@@ -92,7 +92,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "name": "https://biblioteca-coll.neocities.org/images/libros/cam.png"
+        "name": "https://biblioteca-coll.netlify.app/images/libros/cam.png"
       }
     ],
     "contadores": {
@@ -129,7 +129,7 @@
     "image": [
       {
         "@type": "ImageObject",
-        "name": "https://biblioteca-coll.neocities.org/images/libros/titanic.jpg"
+        "name": "https://biblioteca-coll.netlify.app/images/libros/titanic.jpg"
       }
     ],
     "contadores": {
@@ -147,5 +147,80 @@
         "date": "2021/04/19"
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2012-03-6",
+    "description": "Harry Potter nunca ha oído hablar de Hogwarts hasta que empiezan a caer cartas en el felpudo del número 4 de Privet Drive. Llevan la dirección escrita con tinta verde en un sobre de pergamino amarillento con un sello de lacre púrpura, y sus horripilantes tíos se apresuran a confiscarlas. Más tarde, el día que Harry cumple once años, Rubeus Hagrid, un hombre gigantesco cuyos ojos brillan como escarabajos negros, irrumpe con una noticia extraordinaria: Harry Potter es un mago, y le han concedido una plaza en el Colegio Hogwarts de Magia y Hechicería. ¡Está a punto de comenzar una aventura increíble!.",
+    "genre": "Fantasia",
+    "author": "J.K. Rowling",
+    "inLanguage": "en-ES",
+    "isbn": "9788478884452",
+    "name": "Harry Potter",
+    "numberOfPages": "256",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Salamandra"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.netlify.app/images/libros/harrypotter.jpg"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Miquella",
+        "comment": "Mi hermana me dejo con este libro junto a un árbol y me imaginaba miles de cosas a su lado.",
+        "date": "2020/04/03"
+      },
+      {
+        "nickname": "Malenia",
+        "comment": "Es increible que la piedra filosofal tenga tanto sentido en la historia, no te lo ves venir, es un libro lleno de giros.",
+        "date": "2021/04/19"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "datePublished": "2021-05-6",
+    "description": "Este libro único recoge una vasta gama de imágenes e información sobre gran número de personajes, criaturas, vehículos, aparatos y lugares, presentados en orden cronológico desde su primera aparición en las películas de Star Wars hasta las secuelas Star Wars: Las guerras clon, Star Wars Rebels y otros contenidos de la saga. Si eres fan de Star Wars no tendrás ningún problema en encontrar aquí lo que buscas. Y si eres nuevo en la galaxia, te animamos a que tengas Universo Star Wars siempre a mano cuando veas las películas de Star Wars.",
+    "genre": "Fantasia",
+    "author": "J.K. Rowling",
+    "inLanguage": "en-ES",
+    "isbn": "9780241420584",
+    "name": "Star Wars",
+    "numberOfPages": "352",
+    "publisher": {
+      "@type": "Organization",
+      "name": "DK"
+    },
+    "image": [
+      {
+        "@type": "ImageObject",
+        "name": "https://biblioteca-coll.netlify.app/images/libros/harrypotter.jpg"
+      }
+    ],
+    "contadores": {
+      "favorito": "false"
+    },
+    "coments": [
+      {
+        "nickname": "Miquella",
+        "comment": "Mi hermana me dejo con este libro junto a un árbol y me imaginaba miles de cosas a su lado.",
+        "date": "2020/04/03"
+      },
+      {
+        "nickname": "Malenia",
+        "comment": "Es increible que la piedra filosofal tenga tanto sentido en la historia, no te lo ves venir, es un libro lleno de giros.",
+        "date": "2021/04/19"
+      }
+    ]
   }
+
 ]
