@@ -21,17 +21,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/hambre.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Carlos",
-        "comment": "Es un gran libro que coge su inspiracion de los Juegos del Hambre del videojuego Minecraft.",
-        "date": "2019/4/20"
-      },
-      {
-        "nickname": "Lluc",
-        "comment": "El mejor libro que he leido nunca, se lo recomendaria a cualquiera.",
-        "date": "2012/03/11"
-      }
+    "datosextra": [{
+      "comentarios": [
+        {
+          "nickname": "Carlos",
+          "comment": "Es un gran libro que coge su inspiracion de los Juegos del Hambre del videojuego Minecraft.",
+          "date": "2019/4/20"
+        },
+        {
+          "nickname": "Lluc",
+          "comment": "El mejor libro que he leido nunca, se lo recomendaria a cualquiera.",
+          "date": "2012/03/11"
+        }
+      ]
+    }
     ]
   },
   {
@@ -55,17 +58,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/lib1.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Esteve",
-        "comment": "Este libro es increible, me ha hecho sentir como que volvia a ser ninyo.",
-        "date": "2007/01/12"
-      },
-      {
-        "nickname": "Francisco Javier",
-        "comment": "Sigo sin entender la pasion de la gente por Brandon Sanderson, pero este libro no esta mal.",
-        "date": "2008/03/21"
-      }
+    "datosextra": [{
+      "comentarios":[
+        {
+          "nickname": "Esteve",
+          "comment": "Este libro es increible, me ha hecho sentir como que volvia a ser ninyo.",
+          "date": "2007/01/12"
+        },
+        {
+          "nickname": "Francisco Javier",
+          "comment": "Sigo sin entender la pasion de la gente por Brandon Sanderson, pero este libro no esta mal.",
+          "date": "2008/03/21"
+        }
+      ]
+    }
     ]
   },
   {
@@ -89,17 +95,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/cam.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Juan",
-        "comment": "Desde el balcon: *Sonidos de caballo.",
-        "date": "2022/03/09"
-      },
-      {
-        "nickname": "Ander Salmon",
-        "comment": "No hay mejor autor que Sanderson, lo recomiendo alli donde voy.",
-        "date": "2021/04/19"
-      }
+    "datosextra": [{
+      "comentarios":[
+        {
+          "nickname": "Juan",
+          "comment": "Desde el balcon: *Sonidos de caballo.",
+          "date": "2022/03/09"
+        },
+        {
+          "nickname": "Ander Salmon",
+          "comment": "No hay mejor autor que Sanderson, lo recomiendo alli donde voy.",
+          "date": "2021/04/19"
+        }
+      ]
+    }
     ]
   },
     {
@@ -123,17 +132,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/titanic.jpg"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Rodrigo",
-        "comment": "En el cine será un clásico pero ha sido lo peor que he leído en mucho tiempo.",
-        "date": "2020/04/03"
-      },
-      {
-        "nickname": "Carlos",
-        "comment": "Buen libro.",
-        "date": "2021/04/19"
-      }
+    "datosextra": [{
+      "comentarios": [
+        {
+          "nickname": "Rodrigo",
+          "comment": "En el cine será un clásico pero ha sido lo peor que he leído en mucho tiempo.",
+          "date": "2020/04/03"
+        },
+        {
+          "nickname": "Carlos",
+          "comment": "Buen libro.",
+          "date": "2021/04/19"
+        }
+      ]
+    }
     ]
   },
   {
@@ -157,17 +169,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/harrypotter.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Miquella",
-        "comment": "Mi hermana me dejo con este libro junto a un árbol y me imaginaba miles de cosas a su lado.",
-        "date": "2022/03/03"
-      },
-      {
-        "nickname": "Malenia",
-        "comment": "Es increible que la piedra filosofal tenga tanto sentido en la historia, no te lo ves venir, es un libro lleno de giros.",
-        "date": "2022/03/19"
-      }
+    "datosextra": [{
+      "comentarios": [
+        {
+          "nickname": "Miquella",
+          "comment": "Mi hermana me dejo con este libro junto a un árbol y me imaginaba miles de cosas a su lado.",
+          "date": "2022/03/03"
+        },
+        {
+          "nickname": "Malenia",
+          "comment": "Es increible que la piedra filosofal tenga tanto sentido en la historia, no te lo ves venir, es un libro lleno de giros.",
+          "date": "2022/03/19"
+        }
+      ]
+    }
     ]
   },
   {
@@ -191,17 +206,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/starwars.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Brandon S",
-        "comment": "Muy buen libro, ilustra muy bien a los persoanejes y les da profundidad que les faltaba a les peliculas.",
-        "date": "2021/03/07"
-      },
-      {
-        "nickname": "Francisco",
-        "comment": "No era lo que esperaba, pero estoy satisfecho.",
-        "date": "2021/08/21"
-      }
+    "datosextra": [{
+      "comentarios":[
+        {
+          "nickname": "Brandon S",
+          "comment": "Muy buen libro, ilustra muy bien a los persoanejes y les da profundidad que les faltaba a les peliculas.",
+          "date": "2021/03/07"
+        },
+        {
+          "nickname": "Francisco",
+          "comment": "No era lo que esperaba, pero estoy satisfecho.",
+          "date": "2021/08/21"
+        }
+      ]
+    }
     ]
   },
   {
@@ -224,17 +242,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/spiderman.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Peter Parker",
-        "comment": "Ojala ser Spiderman, tiene pinta de ser muy buena persona, me encantaría conocerlo.",
-        "date": "2020/09/20"
-      },
-      {
-        "nickname": "Evelyn",
-        "comment": "La mujer con el traje de Spiderman negra me ha encantado la verdad, al igual le hago un homenaje.",
-        "date": "2020/09/22"
-      }
+    "datosextra": [{
+      "comentarios": [
+        {
+          "nickname": "Peter Parker",
+          "comment": "Ojala ser Spiderman, tiene pinta de ser muy buena persona, me encantaría conocerlo.",
+          "date": "2020/09/20"
+        },
+        {
+          "nickname": "Evelyn",
+          "comment": "La mujer con el traje de Spiderman negra me ha encantado la verdad, al igual le hago un homenaje.",
+          "date": "2020/09/22"
+        }
+      ]
+    }
     ]
   },
   {
@@ -257,16 +278,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/imperioromano.png"
       }
     ],
-    "comments": [
+    "datosextra": [
       {
+      "comentarios":[
+        {
         "nickname": "Eldelgard Von Hresvelg",
         "comment": "Me ha gustado la parte donde explican como se formo el imperio, tomaré notas de ellos, muy buen libro 10/10.",
         "date": "2022-12-03"
-      },
-      {
+        },
+        {
         "nickname": "Hubert von Vestra",
-        "comment": "Lo leo para tener idea de liderato y mejorar mis capacidades para conocer la historia, ha sido muy útil.",
+        "comment": "Lo leo para tener idea de liderazgo y mejorar mis capacidades para conocer la historia, ha sido muy útil.",
         "date": "2022-11-28"
+        }
+      ]
       }
     ]
   },
@@ -290,16 +315,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/pajaroamarillo.png"
       }
     ],
-    "comments": [
+    "datosextra": [
       {
+      "comentarios":[
+        {
         "nickname": "Annie",
         "comment": "Es un buen libro para leer antes de ir a dormir con mi osito.",
         "date": "2020/09/20"
-      },
-      {
-        "nickname": "Anya",
-        "comment": "Chichi me lo lee cada noche antes de irme a la cama, me encanta.",
-        "date": "2020/09/22"
+        },
+        {
+          "nickname": "Anya",
+          "comment": "Chichi me lo lee cada noche antes de irme a la cama, me encanta.",
+          "date": "2020/09/22"
+        }
+      ]
       }
     ]
   },
@@ -323,17 +352,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/lineadefuego.png"
       }
     ],
-    "comments": [
-      {
+    "datosextra": [{
+      "comentarios": [
+        {
         "nickname": "Jose Manuel Martinez",
         "comment": "Me ha encantado lo bien que plasma la historia de sus personajes, uno de mis favoritos sin duda.",
         "date": "2020/10/20"
-      },
-      {
+        },
+        {
         "nickname": "Javier Inmaculado",
         "comment": "Este libro es fantastico, se lo recomiendo a todas las personas para que tengan un poco de cultura y dejen de votar a según que personas.",
         "date": "2020/10/23"
-      }
+        }
+      ]
+    }
     ]
   },
   {
@@ -355,17 +387,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/vdevendetta.png"
       }
     ],
-    "comments": [
-      {
+    "datosextra": [{
+      "comentarios": [
+        {
         "nickname": "Kamisato Ayaka",
         "comment": "Este libro explica muy bien como empiezan las revoluciones, primero desde las sombras y luego van emergiendo, me ha gustado mucho.",
         "date": "2020/10/22"
-      },
-      {
-        "nickname": "Sara",
-        "comment": "Este tipo de libros no deberían estar permitidos, sobretodo a un público tan joven e influenciable...",
-        "date": "2020/10/23"
-      }
+        },
+        {
+          "nickname": "Sara",
+          "comment": "Este tipo de libros no deberían estar permitidos, sobretodo a un público tan joven e influenciable...",
+          "date": "2020/10/23"
+        }
+      ]
+    }
     ]
   },
   {
@@ -387,17 +422,20 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/heatwave.png"
       }
     ],
-    "comments": [
-      {
-        "nickname": "Cait",
-        "comment": "Me parece super bien por lo que lucha la protagonista y empodera a la mujer 10/10.",
-        "date": "2020/10/22"
-      },
-      {
-        "nickname": "Vi",
-        "comment": "A mi novia le encantan este tipo de novelas, espero que a vosotros os gusten tanto como a ella.",
-        "date": "2020/10/23"
-      }
+    "datosextra": [{
+      "comentarios": [
+        {
+          "nickname": "Cait",
+          "comment": "Me parece super bien por lo que lucha la protagonista y empodera a la mujer 10/10.",
+          "date": "2020/10/22"
+        },
+        {
+          "nickname": "Vi",
+          "comment": "A mi novia le encantan este tipo de novelas, espero que a vosotros os gusten tanto como a ella.",
+          "date": "2020/10/23"
+        }
+      ]
+    }
     ]
   }
 
