@@ -21,9 +21,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/hambre.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Carlos",
@@ -58,9 +55,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/lib1.png"
       }
     ],
-    "contadores": {
-      "favorito": "true"
-    },
     "coments": [
       {
         "nickname": "Esteve",
@@ -95,9 +89,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/cam.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Juan",
@@ -132,9 +123,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/titanic.jpg"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Rodrigo",
@@ -169,9 +157,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/harrypotter.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Miquella",
@@ -206,9 +191,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/starwars.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Brandon S",
@@ -242,9 +224,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/spiderman.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Peter Parker",
@@ -278,9 +257,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/imperioromano.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Eldelgard Von Hresvelg",
@@ -314,9 +290,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/pajaroamarillo.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Annie",
@@ -350,9 +323,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/lineadefuego.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Jose Manuel Martinez",
@@ -385,9 +355,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/vdevendetta.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Kamisato Ayaka",
@@ -420,9 +387,6 @@
         "name": "https://biblioteca-coll.netlify.app/images/libros/heatwave.png"
       }
     ],
-    "contadores": {
-      "favorito": "false"
-    },
     "coments": [
       {
         "nickname": "Cait",

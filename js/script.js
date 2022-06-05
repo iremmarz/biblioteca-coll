@@ -6,62 +6,6 @@ jQuery(function ($) {
 	/* ----------------------------------------------------------- */
 	$(window).on('scroll', function () {
 
-		// fixedHeader on scroll //no se usa
-		function fixedHeader() {
-			var headerTopBar = $('.top-bar').outerHeight();
-			var headerOneTopSpace = $('.header-one .logo-area').outerHeight();
-
-			var headerOneELement = $('.header-one .site-navigation');
-			var headerTwoELement = $('.header-two .site-navigation');
-
-			if ($(window).scrollTop() > headerTopBar + headerOneTopSpace) {
-				$(headerOneELement).addClass('navbar-fixed');
-				$('.header-one').css('margin-bottom', headerOneELement.outerHeight());
-			} else {
-				$(headerOneELement).removeClass('navbar-fixed');
-				$('.header-one').css('margin-bottom', 0);
-			}
-			if ($(window).scrollTop() > headerTopBar) {
-				$(headerTwoELement).addClass('navbar-fixed');
-				$('.header-two').css('margin-bottom', headerTwoELement.outerHeight());
-			} else {
-				$(headerTwoELement).removeClass('navbar-fixed');
-				$('.header-two').css('margin-bottom', 0);
-			}
-		}
-		fixedHeader();
-
-
-		// Count Up //hace que los numeritos avancen hasta x numero asi fast no se usa
-		function counter() {
-			var oTop;
-			if ($('.counterUp').length !== 0) {
-				oTop = $('.counterUp').offset().top - window.innerHeight;
-			}
-			if ($(window).scrollTop() > oTop) {
-				$('.counterUp').each(function () {
-					var $this = $(this),
-						countTo = $this.attr('data-count');
-					$({
-						countNum: $this.text()
-					}).animate({
-						countNum: countTo
-					}, {
-						duration: 1000,
-						easing: 'swing',
-						step: function () {
-							$this.text(Math.floor(this.countNum));
-						},
-						complete: function () {
-							$this.text(this.countNum);
-						}
-					});
-				});
-			}
-		}
-		counter();
-
-
 		// scroll to top btn show/hide
 		function scrollTopBtn() {
 			var scrollToTop = $('#back-to-top'),
@@ -78,16 +22,7 @@ jQuery(function ($) {
 
 	$(document).ready(function () {
 
-		// navSearch show/hide //no se usa
-		function navSearch() {
-			$('.nav-search').on('click', function () {
-				$('.search-block').fadeIn(350);
-			});
-			$('.search-close').on('click', function () {
-				$('.search-block').fadeOut(350);
-			});
-		}
-		navSearch();
+		
 
 		// navbarDropdown
 		function navbarDropdown() {
@@ -118,7 +53,7 @@ jQuery(function ($) {
 		backToTop();
 
 
-		// banner-carousel //con botoncitos abajo
+		// banner-carousel
 		function bannerCarouselOne() {
 			$('.banner-carousel.banner-carousel-1').slick({
 				slidesToShow: 1,
@@ -134,42 +69,7 @@ jQuery(function ($) {
 		}
 		bannerCarouselOne();
 
-
-		// banner Carousel Two //sin botoncitos abajo, no se usa
-		function bannerCarouselTwo() {
-			$('.banner-carousel.banner-carousel-2').slick({
-				fade: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				autoplay: true,
-				dots: false,
-				speed: 600,
-				arrows: true,
-				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
-				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
-			});
-		}
-		bannerCarouselTwo();
-
-
-		// pageSlider //no se usa, lo he quitado y nada ha explotado parece
-		function pageSlider() {
-			$('.page-slider').slick({
-				fade: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				autoplay: true,
-				dots: false,
-				speed: 600,
-				arrows: true,
-				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
-				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
-			});
-		}
-		pageSlider();
-
-
-		// Shuffle js filter and masonry //hace que las imágenes de la galeria de actividades salgan ordenadas una al lado de otras
+		//hace que las imágenes de la galeria de actividades salgan ordenadas una al lado de otras
 		function projectShuffle() {
 			if ($('.shuffle-wrapper').length !== 0) {
 				var Shuffle = window.Shuffle;
@@ -191,87 +91,6 @@ jQuery(function ($) {
 			}
 		}
 		projectShuffle();
-
-
-		// testimonial carousel //no se usa
-		function testimonialCarousel() {
-			$('.testimonial-slide').slick({
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				dots: true,
-				speed: 600,
-				arrows: false
-			});
-		}
-		testimonialCarousel();
-
-
-		// team carousel //no se usa
-		function teamCarousel() {
-			$('.team-slide').slick({
-				dots: false,
-				infinite: false,
-				speed: 300,
-				slidesToShow: 4,
-				slidesToScroll: 2,
-				arrows: true,
-				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
-				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>',
-				responsive: [{
-						breakpoint: 992,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3
-						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 481,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					}
-				]
-			});
-		}
-		teamCarousel();
-
-
-		// media popup //npo se que es? la he comentado peor no cambia nada
-		function mediaPopup() {
-			$('.gallery-popup').colorbox({
-				rel: 'gallery-popup',
-				transition: 'slideshow',
-				innerHeight: '500'
-			});
-			$('.popup').colorbox({
-				iframe: true,
-				innerWidth: 600,
-				innerHeight: 400
-			});
-		}
-		mediaPopup();
-		
-function addRating(obj) {
-  $('li').each(function(index) {
-    $(this).toggleClass('selected');
-    $('#rating').val((index + 1));
-    if (index == $("li").index(obj)) {
-      return false;
-    }
-  });
-}
-
-$("#fav").on('click',function() {
-  addRating(this);
-});
 
 });
 });
