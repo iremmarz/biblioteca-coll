@@ -16,6 +16,7 @@ console.log(llistaPelis);
 
 function search() {
   document.getElementById("myInput").placeholder = "Introduzca el título del libro...";
+  document.getElementById("myInput").setAttribute('onkeyup', 'search()');
   let input = document.getElementById('myInput').value
   input = input.toLowerCase();
   let x = document.querySelector('#libro');
@@ -109,7 +110,7 @@ function searchAutor() {
         </div>
         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div class="text-center">
-            <button type="button" class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#exampleModalCenter" onclick="ventanaModal('${url}')">Detalles</button></div>
+            <button type="button" class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#exampleModalCenter" onclick="ventanaModal('${i}') ; urlIframe('${url}')">Detalles</button></div>
             <div id="cardM"></div>
           </div>
         </div>
