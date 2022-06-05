@@ -150,9 +150,9 @@ function ventanaModal(i) {
     '<div id="notrailer"></div>'+
     '<p><b>Comentarios: </b></p>' +
     '<div class="container border border-1 rounded-end shadow mt-5 p-3 px-5 aos-init aos-animate" data-aos="flip-up"> <div class="row commentAuthor mb-2"><img src="images/usericon.png"> <div class="col-12 col-lg-8 nameAuthor">' +
-    '<div class="fs-5 fw-bold"><b>' + cards[i]["datosextra"][0]["comentarios"][0]["nickname"] + '</b></div></div></div><div class="row commentText"> <div class="col-12 fs-6">' + cards[i]["datosextra"][0]["comentarios"][0]["comment"] + '</div></div></div>' +
+    '<div class="fs-5 fw-bold"><b>' + cards[i]["datosextra"][0]["comentarios"][0]["author"] + '</b></div></div></div><div class="row commentText"> <div class="col-12 fs-6">' + cards[i]["datosextra"][0]["comentarios"][0]["comment"] + '</div></div></div>' +
     '<div class="container border border-1 rounded-end shadow mt-5 p-3 px-5 aos-init aos-animate" data-aos="flip-up"> <div class="row commentAuthor mb-2"><img src="images/usericon.png"> <div class="col-12 col-lg-8 nameAuthor">' +
-    '<div class="fs-5 fw-bold"><b>' + cards[i]["datosextra"][0]["comentarios"][1]["nickname"] + '</b></div></div></div><div class="row commentText"> <div class="col-12 fs-6">' + cards[i]["datosextra"][0]["comentarios"][1]["comment"] + '</div></div></div>' +
+    '<div class="fs-5 fw-bold"><b>' + cards[i]["datosextra"][0]["comentarios"][1]["author"] + '</b></div></div></div><div class="row commentText"> <div class="col-12 fs-6">' + cards[i]["datosextra"][0]["comentarios"][1]["comment"] + '</div></div></div>' +
     '</div>' +
     '<div class="modal-footer">' +
     '<button type="button" class="btn boton" data-dismiss="modal">Cerrar</button>' +
